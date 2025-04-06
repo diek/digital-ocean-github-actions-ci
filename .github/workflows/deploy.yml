@@ -17,4 +17,4 @@ jobs:
 
       - name: Deploy to Droplet
         run: |
-          ssh -o StrictHostKeyChecking=no root@167.172.181.149 "/root/digital-ocean-github-actions-ci/scripts/deploy.sh"
+          ssh -o -p 44444 StrictHostKeyChecking=no derrick@134.199.153.51 "/derrick/app/digital-ocean-github-actions-ci/scripts/deploy.sh"
